@@ -115,7 +115,7 @@ Visually, the union is the entire shaded area of both sets combined in a Venn di
 ## Intuitive Explanation for the Logic
 
 You're asking for the intuition behind this statement:
-> If $x \notin (B \cap C)$, then $x \notin B$ or $x \notin C$.
+If $x \notin (B \cap C)$, then $x \notin B$ or $x \notin C$.
 
 Let's use a simple real-world analogy.
 
@@ -270,7 +270,7 @@ Here’s the breakdown of the reasoning:
 1.  **The Goal:** The ultimate goal is to prove that the statement $P(n)$ is true for **all** natural numbers $n \in \mathbb{N}$.
 
 2.  **The Strategy (Contradiction):** In a proof by contradiction, you start by assuming the exact **opposite** of what you want to prove.
-    * **Goal:** "$P(n)$ is true for all $n$."
+    * **Goal:** $P(n)$ is true for all $n$.
     * **Opposite Assumption:** "It's **not** true that $P(n)$ is true for all $n$." This is the same as saying, "There is **at least one** natural number $n$ for which $P(n)$ is false."
 
 3.  **Defining S to formalize the assumption:** The set $S$ is a clever way to formalize this opposite assumption.
@@ -303,14 +303,14 @@ Think of it like a detective trying to prove a suspect is innocent.
 
 ### 1. The Goal (What we want to prove)
 The text first states the final destination of the proof:
-> We wish to show that $S = \emptyset$.
+We wish to show that $S = \emptyset$.
 
 This is the author telling you, "My ultimate goal is to convince you that the set of counterexamples is empty." This is like the detective saying, "I am going to prove this person is innocent."
 
 ---
 ### 2. The Assumption (The starting point for the contradiction)
 Next, the proof sets up the contradiction by assuming the *opposite* of the goal is true:
-> Suppose that $S \neq \emptyset$.
+Suppose that $S \neq \emptyset$.
 
 This is the author saying, "Okay, to prove my goal, let's temporarily pretend the opposite is true and see what happens." This is like the detective saying, "Let's assume, for the sake of argument, that this person is guilty and see if the evidence makes sense."
 
